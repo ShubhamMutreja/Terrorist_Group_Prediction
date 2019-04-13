@@ -5,4 +5,8 @@ The model uses tokenize summary and details about weapon used, country, vincity,
 Summary was tokenized and used as a feature
 target values were label encoded for classification.
 
-Some simple Machine Learning models were utilized like Decision Trees, SGD Classifier and KNN.
+Some simple Machine Learning models were utilized like Decision Trees, SGD Classifier and KNN
+#New Update..
+In the notebook GTD_Prediciton, Keras Functional API was used to create a model that concantates two separate dense layers.
+The catagorical data and summary tokens are now seaparately processed and then combined into a several dense layers.
+
